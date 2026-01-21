@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,15 +10,34 @@
       }
     </style>
     <script type="importmap">
-			{
-				"imports": {
-					"three": "https://cdn.jsdelivr.net/npm/three@0.131/build/three.module.js",
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.131/build/three.module.js",
           "jsm/": "https://cdn.jsdelivr.net/npm/three@0.131/examples/jsm/"
         }
-			}
-		</script>
+      }
+    </script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div id="planet-list">
+      <div class="active">Sun System</div>
+      <div>Sun</div>
+      <div>Mercury</div>
+      <div>Venus</div>
+      <div>Earth</div>
+      <div>Mars</div>
+      <div>Jupiter</div>
+      <div>Saturn</div>
+      <div>Uranus</div>
+      <div>Neptune</div>
+
+
+
+      <div>Ship</div>
+      <div>Free Camera</div>
+
+    </div>
     <script type="module" src="index.js"></script>
   </body>
 </html>
